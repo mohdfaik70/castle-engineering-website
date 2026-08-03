@@ -1,3 +1,5 @@
 # Castle Engineering & Consultancy Website
 
-Version 1 static website for Cloudflare Pages.
+Version 0.2 — brand aligned with the LinkedIn profile.
+
+Brand line: Governance. Visibility. Delivery.

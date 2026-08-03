@@ -1,13 +1,13 @@
 
 :root{
-  --navy:#0b1f3a;
-  --blue:#123e6b;
-  --burgundy:#7a1f2b;
-  --green:#0b5f46;
-  --charcoal:#2f343b;
-  --muted:#69727d;
-  --line:#d9dee4;
-  --soft:#f4f6f8;
+  --navy:#0B1F3A;
+  --blue:#173B63;
+  --burgundy:#B8893B;
+  --green:#2F343B;
+  --charcoal:#2F343B;
+  --muted:#68717C;
+  --line:#D8DDE3;
+  --soft:#F4F6F8;
   --white:#ffffff;
   --max:1180px;
 }
@@ -143,4 +143,46 @@ textarea{min-height:150px;resize:vertical}
   .metric-strip{grid-template-columns:1fr}
   .metric{border-right:0;border-bottom:1px solid var(--line)}
   h1{font-size:44px}
+}
+
+
+/* Brand alignment v0.2 — Governance. Visibility. Delivery. */
+.eyebrow,
+.kicker,
+.timeline-item .when {
+  color: #8A5A10;
+}
+
+.hero-card {
+  border-left-color: #B8893B;
+}
+
+.card.accent-blue {
+  border-top-color: #173B63;
+}
+
+.card.accent-red {
+  border-top-color: #B8893B;
+}
+
+.card.accent-green {
+  border-top-color: #2F343B;
+}
+
+.callout {
+  border-left-color: #B8893B;
+  background: #F8F4EC;
+}
+
+.tag {
+  border-left-color: #B8893B;
+}
+
+.article-card {
+  border-left-color: #B8893B;
+}
+
+.menu a:hover,
+.menu a[aria-current="page"] {
+  color: #8A5A10;
 }
